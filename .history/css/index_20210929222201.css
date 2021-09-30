@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	font-family: "Work Sans", sans-serif;
+	font-weight: normal;
+}
+/* HEADER */
+.header__top {
+	background-color: #ff4f81;
+	padding: 0.8rem 1.6rem;
+	font-size: 1.4rem;
+}
+.header__left a {
+	margin-right: 2.8rem;
+}
+.header__right a {
+	display: inline-block;
+	color: white;
+	background-color: #333;
+	width: 3rem;
+	height: 3rem;
+	border: 1px solid #333;
+	text-align: center;
+	line-height: 3rem;
+}
+.header__right a:hover {
+	background-color: transparent;
+}
