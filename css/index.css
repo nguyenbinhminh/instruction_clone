@@ -38,7 +38,7 @@ body {
 	border: 1px solid white;
 }
 .navInstruction {
-	padding: 1.44rem 0;
+	padding: 1.44rem 0 0 0;
 }
 .navInstruction a {
 	color: #282828;
@@ -107,4 +107,53 @@ body {
 #navbarInstruction .dropdown-menu .dropdown-item:hover {
 	background-color: transparent;
 	color: #ff4f81;
+}
+/* Carousel */
+#carouselInstruction .carousel-caption {
+	bottom: unset;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#carouselInstruction .carousel-caption h1 {
+	font-size: 5.2rem;
+}
+#carouselInstruction .carousel-caption h1 span {
+	font-weight: 300;
+}
+#carouselInstruction .carousel-caption p {
+	letter-spacing: 0.4rem;
+	line-height: 2.88rem;
+	font-size: 1.4rem;
+	font-weight: 300;
+	width: 70%;
+	margin: 1.6rem auto 3.2rem;
+}
+#carouselInstruction .carousel-caption button {
+	padding: 1.1rem 2rem;
+	color: white;
+	border: 1px solid white;
+	border-radius: 0;
+	letter-spacing: 0.1rem;
+	font-size: 1.44rem;
+	transition: all 0.5s;
+}
+#carouselInstruction .carousel-caption button:hover {
+	background-color: #ff4f81;
+	border-color: #ff4f81;
+}
+#carouselInstruction .carousel-indicators {
+	align-items: center;
+}
+#carouselInstruction .carousel-indicators li {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+}
+#carouselInstruction .carousel-indicators .active {
+	width: 1.2rem;
+	height: 1.2rem;
+	background-color: #fff;
 }
